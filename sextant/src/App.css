@@ -1,38 +1,41 @@
-.App {
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* importing fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap');
+
+/* Banner style */
+.banner{
+  height: 100vh;
   text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  color: #B7D3DF;
+  background-color: #898AA6;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner .horizontal_line{
+  width: 90%;
+  display: block;
+  margin: auto;
+  height: 0.2rem;
+  border-radius: 4px;
+  background-color:#F8F9D7 ;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner_flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-self: center;
 }
-
-.App-link {
-  color: #61dafb;
+.banner_img img{
+  width: 4rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner_img{
+  position: absolute;
+  left: 1rem;
 }
+#banner_text{
+  margin: auto;
+}
+/* Exhibit style */
