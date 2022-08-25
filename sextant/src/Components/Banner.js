@@ -12,7 +12,6 @@ function Banner() {
     <h1 id="banner_text">Sextant</h1>
     </div>
     <div className="horizontal_line"></div>
-    <h2>Best network diagnostic tool</h2>
    </div>
     </>
   )
