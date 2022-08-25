@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../logo.png'
-import Card from './Card'
+import './Banner.css'
 function Banner() {
   return (
     <>
@@ -13,7 +13,6 @@ function Banner() {
     </div>
     <div className="horizontal_line"></div>
     <h2>Best network diagnostic tool</h2>
-   <Card/>
    </div>
     </>
   )

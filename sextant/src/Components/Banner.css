@@ -1,0 +1,30 @@
+.banner{
+    height: vh;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: aliceblue;
+  }
+  .banner .horizontal_line{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 0.2rem;
+    border-radius: 4px;
+    background-color:#F8F9D7 ;
+  }
+  .banner_flex{
+    display: flex;
+    align-self: center;
+  }
+  .banner_img img{
+    width: 4rem;
+    filter: invert();
+  }
+  .banner_img{
+    position: absolute;
+    left: 1rem;
+  }
+  #banner_text{
+    margin: auto;
+  }
