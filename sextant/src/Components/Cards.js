@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 function Cards() {
   return (
       <>
-    <Carousel>
+    <Carousel showStatus={false} useKeyboardArrows={true}>
     <Card/>
     <Card/>
     </Carousel>

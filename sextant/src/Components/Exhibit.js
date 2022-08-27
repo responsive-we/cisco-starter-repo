@@ -1,36 +1,34 @@
 import React from 'react'
-import './Exhibit.css'
+import Sass from 'sass'
+import './Exhibit.scss'
 
 const Exhibit = () => {
   return (
     <>
-     <div class="header">
-    <h1>Reliable, efficient delivery</h1>
-    <h1>Powered by Technology</h1>
-
-    <p>Our Artificial Intelligence powered tools use millions of project data points
-      to ensure that your project is successful</p>
-  </div>
-  <div class="row1-container">
-    <div class="box_2 box-down cyan">
-      <h2>Supervisor</h2>
-      <p>Monitors activity to identify project roadblocks</p>
-      <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt=""/>
-    </div>
-
-    <div class="box_2 red">
-      <h2>Team Builder</h2>
-      <p>Scans our talent network to create the optimal team for your project</p>
-      <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt=""/>
-    </div>
-
-    <div class="box_2 box-down blue">
-      <h2>Calculator</h2>
-      <p>Uses data from past projects to provide better delivery estimates</p>
-      <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt=""/>
-    </div>
-  </div> 
-    </>
+     <main class="grid">
+	<section class="content item1">
+		<h1>Hover Card Animation</h1>
+		<p>By animating a few CSS paint & composite properties, we can create fun interactions on hover & focus</p> 
+	</section>
+	<section class="card item2">
+		<h2>Hover the cards</h2>
+	</section>
+	<section class="card item3"></section>
+	<section class="card item4"></section>
+	<section class="card item5">
+			<h2>because interactions make it more fun</h2>
+	</section>
+	<section class="card item7"></section>
+	<section class="card item8">
+			<h2>animating the shadow on the pseudo element makes it pop out</h2>
+	</section>
+	<section class="card item9"></section>
+	<section class="card item10"></section>
+	<section class="card item11">
+		<h2>add a :focus state too!</h2>
+	</section>
+</main>
+</>
   )
 }
 
