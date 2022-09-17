@@ -11,7 +11,6 @@ function Banner() {
     </div>
     <h1 id="banner_text">Sextant</h1>
     </div>
-    <div className="horizontal_line"></div>
    </div>
     </>
   )
