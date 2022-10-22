@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../logo.png'
-import './Banner.css'
+import './css/Banner.css'
 function Banner() {
   return (
     <>

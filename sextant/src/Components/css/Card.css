@@ -15,10 +15,6 @@ body {
   background: #232427;
 }
 
-.box{
-  width: fit-content !important;
-}
-
 body .container {
   display: flex;
   justify-content: center;
